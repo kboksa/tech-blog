@@ -1,33 +1,28 @@
-const { Comment } = require("../models");
+const { User } = require("../models");
 
-const commentData = [
+const userData = [
   {
-    comment_text: "I have a very bad feeling about this.",
-    user_id: 1,
-    post_id: 2,
+    username: "LukeSkywalker",
+    password: "forcespirit",
   },
   {
-    comment_text: "Why you stuck up?",
-    user_id: 2,
-    post_id: 3,
+    username: "PrincessLeia",
+    password: "anewhope",
   },
   {
-    comment_text: "I don't even know if i should code or not!",
-    user_id: 3,
-    post_id: 1,
+    username: "Yoda",
+    password: "galaxyfaraway",
   },
   {
-    comment_text: "Do or do not. There is no try.",
-    user_id: 4,
-    post_id: 5,
+    username: "Chewbacca",
+    password: "whoolala",
   },
   {
-    comment_text: "Don't let yourself get burnt out",
-    user_id: 5,
-    post_id: 4,
+    username: "DarthVader",
+    password: "controlyourfear",
   },
 ];
 
-const seedComments = () => Comment.bulkCreate(commentData);
+const seedUsers = () => User.bulkCreate(userData);
 
-module.exports = seedComments;
+module.exports = seedUsers;
