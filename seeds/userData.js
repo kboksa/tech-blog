@@ -2,24 +2,24 @@ const { User } = require("../models");
 
 const userData = [
   {
-    username: "LukeSkywalker",
-    password: "forcespirit",
+    username: "Aang",
+    password: "airbender",
   },
   {
-    username: "PrincessLeia",
-    password: "anewhope",
+    username: "Zuko",
+    password: "firebender",
   },
   {
-    username: "Yoda",
-    password: "galaxyfaraway",
+    username: "Katara",
+    password: "waterbender",
   },
   {
-    username: "Chewbacca",
-    password: "whoolala",
+    username: "Toph",
+    password: "earthbender",
   },
   {
-    username: "DarthVader",
-    password: "controlyourfear",
+    username: "Sokka",
+    password: "funbender",
   },
 ];
 

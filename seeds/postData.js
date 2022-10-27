@@ -27,8 +27,7 @@ const postData = [
   },
   {
     title: "Don't get distracted",
-    content:
-      "I'd like to think that if only Anakin had been a little more focused on, say, the immense evil about to spread across the galaxy, and a little less on his love life, a lot of problems could have been avoided. Heck, maybe if Anakin paid attention to the growing evil within himself, a lot of problems could've been avoided. What I'm saying is that Anakin wasn't very focused on the things that matter. You should focus on the things that matter. Beware the dark side of the Force, that clouds your judgement.",
+    content: "Focus.",
     user_id: 5,
   },
 ];
