@@ -76,11 +76,11 @@ router.get("/new", (req, res) => {
   res.render("add-post");
 });
 
-module.exports = router;
-const router = require("express").Router();
-const sequelize = require("../config/connection");
-const { Post, User, Comment } = require("../models");
-const withAuth = require("../utils/auth");
+// module.exports = router;
+// const router = require("express").Router();
+// const sequelize = require("../config/connection");
+// const { Post, User, Comment } = require("../models");
+// const withAuth = require("../utils/auth");
 
 //GET / routes allow loggedin user view all post
 router.get("/", withAuth, (req, res) => {
