@@ -10,7 +10,7 @@ const postData = [
   {
     title: "Sometimes you have to fail to succeed",
     content:
-      "Sometimes you try with everything you've got and you still fail. But look at the bright side, you're in good company; most of us try and fail a whole bunch before we succeed. But try hard enough and eventually you'll get there. 'The Empire Strikes Back' is all about failure. Luke fails, Han and Leia fail, even the droids fail. The Rebel Alliance is nearly wiped out. But you know what? If they hadn't failed at first they wouldn't have been able to rally and succeed the next time around. And then we'd have no epic final battle on Endor, no confrontation with Emperor Palpatine, and no Ewoks (I didn't say it was all positive).",
+      "Sometimes you try with everything you've got and you still fail. But look at the bright side, you're in good company; most of us try and fail a whole bunch before we succeed. But try hard enough and eventually you'll get there.",
     user_id: 2,
   },
   {
@@ -22,7 +22,7 @@ const postData = [
   {
     title: "Take breaks",
     content:
-      "Work/life balance is crucial. Americans don't take enough time off, especially those Americans working in the tech sector. Maybe if Anakin had taken a few days off to go surfing, or pod racing or whatever, he wouldn't be so cranky and thus less likely to turn to the dark side. Don't succumb to the dark side, take some time off. Your team, your family and your work will all be happier for it.",
+      "Work/life balance is crucial. Americans don't take enough time off, especially those Americans working in the tech sector. Maybe if Aang had taken a few days off to go surfing, or pod racing or whatever, he wouldn't be so cranky and thus less likely to turn to the dark side. Don't succumb to the dark side, take some time off. Your team, your family and your work will all be happier for it.",
     user_id: 4,
   },
   {
